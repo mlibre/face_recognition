@@ -15,7 +15,7 @@ you need to have installed opencv3.1 and python 2 in your Linux.
 ##Examples
 * Download project.
 * Run this command on terminal. ( in project directory )
-~~~python
+~~~bash
    $ python2 detect_face.py pics/girl_2.jpg
 ~~~
 ##How to config this program for your program
