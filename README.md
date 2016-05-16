@@ -18,6 +18,11 @@ you need to have installed opencv3.1 and python 2 in your Linux.
 ~~~bash
    $ python2 detect_face.py pics/girl_2.jpg
 ~~~
+
+Input Image (boy-2.jpg):
+(https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg)
+Output Image:
+[https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg]
 ##How to config this program for what you want
 I designed this program specify for **mobiles front camera's images**.
 If you want to detect **better/more** face, eyes or smile, change **detectmuiltiscale** function **parameters** values.
