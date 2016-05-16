@@ -19,11 +19,11 @@ for (x , y , w , h) in faces:
     img_gray_face_selected = img_gray[y:y+h ,  x:x+w]
     img_real_face_selected = img_real[y:y+h ,  x:x+w]
 
-    left_eyes = eye_left_cascade.detectMultiScale(img_gray_face_selected , 1.1 , 100)
+    left_eyes = eye_left_cascade.detectMultiScale(img_gray_face_selected , 1.1 , 5)
     for (tx , ty , tw , th) in left_eyes:
          cv2.rectangle( img_real_face_selected , (tx , ty) , (tx+tw , ty+th) , (0 , 255 , 0) , 2)
 
-    right_eyes = eye_right_cascade.detectMultiScale(img_gray_face_selected , 1.1 , 100)
+    right_eyes = eye_right_cascade.detectMultiScale(img_gray_face_selected , 1.1 , 5)
     for (tx , ty , tw , th) in right_eyes:
         cv2.rectangle( img_real_face_selected , (tx , ty) , (tx+tw , ty+th) , (255 , 0 , 0) , 2)
 
