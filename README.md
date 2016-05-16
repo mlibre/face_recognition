@@ -16,8 +16,8 @@ you need to have installed opencv3.1 and python 2 in your Linux.
 * Download project.
 * Run this command on terminal. ( in project directory )
 ~~~python
-    python2 detect_face.py pics/girl_2.jpg
-~~
+   $ python2 detect_face.py pics/girl_2.jpg
+~~~
 ##How to config this program for your program
 I designed this program specify for front mobile camera images.
 If you want to detect better/more face, eyes or smile, change detectmuiltiscale function parameters values.
