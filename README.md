@@ -20,10 +20,10 @@ you need to have installed opencv3.1 and python 2 in your Linux.
 ~~~
 
 Input Image (boy-2.jpg):
-<a href="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg"/></a>
+<a href="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2.jpg"/></a>
 
 Output Image:
-<a href="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg"/></a>
+<a href="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2.jpg"/></a>
 
 ##How to config this program for what you want
 I designed this program specify for **mobiles front camera's images**.
