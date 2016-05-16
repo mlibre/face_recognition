@@ -20,9 +20,11 @@ you need to have installed opencv3.1 and python 2 in your Linux.
 ~~~
 
 Input Image (boy-2.jpg):
-(https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg)
+<a href="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg"/></a>
+
 Output Image:
-[https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg]
+<a href="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/girl_3.jpg"/></a>
+
 ##How to config this program for what you want
 I designed this program specify for **mobiles front camera's images**.
 If you want to detect **better/more** face, eyes or smile, change **detectmuiltiscale** function **parameters** values.
