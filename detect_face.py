@@ -12,7 +12,7 @@ smile_cascade = cv2.CascadeClassifier('haar_cascade_files/haarcascade_smile.xml'
 img_real = cv2.imread ( sys.argv[1] )
 img_gray = cv2.cvtColor(img_real , cv2.COLOR_BGR2GRAY)
 
-faces = face_cascade.detectMultiScale(img_gray , 1.3 , 5)
+faces = face_cascade.detectMultiScale(img_gray , 1.3 , 5 , 0 , minSize=(100,100))
 for (x , y , w , h) in faces:
     cv2.rectangle( img_real , (x , y) , (x+w , y+h) , (120 , 120 , 120) , 2)
 
