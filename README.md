@@ -7,10 +7,10 @@ Simple python program that get an face **image** and show **recognized** face. p
 * How to config this program for your purpose
 
 ##Requirements
-1. opencv 3.1
+1. opencv
 2. python 2
 
-you need to have installed opencv3.1 and python 2 in your Linux.
+you need to have installed opencv and python 2 in your Linux.
 
 ##Examples
 * Download project.
