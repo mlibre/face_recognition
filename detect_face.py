@@ -2,7 +2,7 @@ import cv2
 import sys
 
 face_cascade = cv2.CascadeClassifier('haar_cascade_files/haarcascade_frontalface_default.xml')
-
+zz
 #eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 eye_left_cascade = cv2.CascadeClassifier('haar_cascade_files/haarcascade_lefteye_2splits.xml')
 eye_right_cascade = cv2.CascadeClassifier('haar_cascade_files/haarcascade_righteye_2splits.xml')

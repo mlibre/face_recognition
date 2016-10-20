@@ -1,5 +1,5 @@
-#Face Recognition with python and opencv
-Simple python program that get an face **image** and show **recognized** face. program can detect **face**, **smile**, **eyes**.
+#Face Detection with python and opencv
+Simple python program that get an face **image** and show **detected** face. program can detect **face**, **smile**, **eyes**.
 
 ##Table Of contents
 * Requirements
@@ -21,11 +21,11 @@ you need to have installed opencv and python 2 in your Linux.
 
 Input Image (boy-2.jpg):
 
-<a href="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2.jpg" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2.jpg"/></a>
+<a href="https://github.com/mlibre/face_detection/blob/master/pics/boy-2.jpg" target="_blank"><img src="https://github.com/mlibre/face_detection/blob/master/pics/boy-2.jpg"/></a>
 
 Output Image:
 
-<a href="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2-recognized.png" target="_blank"><img src="https://github.com/mlibre/face_recognition/blob/master/pics/boy-2-recognized.png"/></a>
+<a href="https://github.com/mlibre/face_detection/blob/master/pics/boy-2-recognized.png" target="_blank"><img src="https://github.com/mlibre/face_detection/blob/master/pics/boy-2-recognized.png"/></a>
 
 ##How to config this program for what you want
 I designed this program specify for **mobiles front camera's images**.
